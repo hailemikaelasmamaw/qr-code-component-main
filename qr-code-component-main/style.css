@@ -1,0 +1,75 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+  /* Main Container Styling */
+.code {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+  /* Responsive Image */
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+  /* Responsive Text */
+p {
+    margin-top: 15px;
+    font-size: 16px; /* Default for mobile */
+    line-height: 1.5;
+    color: #333;
+    font-weight: 700;
+    }
+
+  /* Attribution Section */
+    .attribution {
+    margin-top: 20px;
+    font-size: 12px; /* Default for mobile */
+    text-align: center;
+    color: #666;
+    }
+
+    .attribution a {
+    color: #007bff;
+    text-decoration: none;
+    }
+
+  /* Media Queries for Responsiveness */
+    @media (min-width: 768px) {
+    p {
+      font-size: 18px; /* Slightly larger font for tablets and up */
+    }
+    .attribution {
+        font-size: 15px;
+    }
+    }
+
+    @media (min-width: 1440px) {
+    .code {
+      max-width: 375px; /* Consistent layout on larger screens */
+    }
+    p {
+      font-size: 20px; /* Larger font for desktop */
+    }
+    .attribution {
+        font-size: 15px;
+    }
+}
